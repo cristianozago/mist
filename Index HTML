@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mist</title>
+</head>
+<body>
+  <h1>Welcome to Mist</h1>
+  <p>Click the link below to play:</p>
+  <a href="Mist HTML/Mist HTML/Main Game.html">Play Game</a>
+</body>
+</html>
