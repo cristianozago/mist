@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Matching Game</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-image: url("background.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    #container {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: white;
+    }
+    #startButton {
+      padding: 10px 20px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <h1>Welcome to the Matching Game</h1>
+    <audio src="sound.mp3" autoplay></audio>
+    <button id="startButton">Start Game</button>
+  </div>
+
+  <script>
+    const startButton = document.getElementById('startButton');
+
+    startButton.addEventListener('click', function() {
+      // Add code to start the game, e.g., navigate to the game page
+      window.location.href = 'game.html'; // Replace 'game.html' with the filename of your actual game page
+    });
+  </script>
+</body>
+</html>
